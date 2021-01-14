@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ling/public_html/
-    - /bin/cp -R homepage $DEPLOYPATH
-    - /bin/cp -R _next $DEPLOYPATH
-    - /bin/cp -R api $DEPLOYPATH
+    - /bin/cp -R /homepage $DEPLOYPATH
+    - /bin/cp -R /_next $DEPLOYPATH
+    - /bin/cp -R /api $DEPLOYPATH
